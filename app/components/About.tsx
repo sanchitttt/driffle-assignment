@@ -87,7 +87,7 @@ function About() {
 
                 </div>
             </main>
-            <main className='w-[100vw] bg-[#0c0c0c] h-[94.4vh] flex flex-col items-center justify-center gap-[30px]'>
+            <main className='w-[100vw] bg-[#0c0c0c] h-[94.4vh] flex flex-col items-center justify-center gap-[30px] mobile:flex desktop:hidden'>
                 <div id='text-container'
                     className='flex flex-col items-center justify-center mx-[15px] gap-[30px]'
                 >
