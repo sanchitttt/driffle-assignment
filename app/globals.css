@@ -2,26 +2,120 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.prevent-select {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    overflow: hidden;
+}
+
+
+.center {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    margin: auto;
+    z-index: 1200;
+}
+
+.centerBottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    margin: auto;
+    z-index: 1200;
+}
+
+.mortalKombat {
+    animation: mortalKombat 100s linear infinite;
+}
+
+.football {
+    animation: football 100s linear infinite;
+}
+
+.minecraft {
+    animation: minecraft 100s linear infinite;
+}
+
+.batman {
+    animation: batman 100s linear infinite;
+}
+
+.xbox {
+    animation: xbox 100s linear infinite;
+}
+
+.gta {
+    animation: gta 100s linear infinite;
+}
+
+@keyframes minecraft {
+    0% {
+        transform: rotate(0deg) translateX(-475px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg) translate(-475px) rotate(-360deg);
+    }
+}
+
+@keyframes mortalKombat {
+    0% {
+        transform: rotate(0deg) translateX(475px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg) translate(475px) rotate(-360deg);
+    }
+}
+
+@keyframes football {
+    0% {
+        transform: rotate(0deg) translateY(475px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg) translateY(475px) rotate(-360deg);
+    }
+}
+
+
+@keyframes batman {
+    0% {
+        transform: rotate(0deg) translate(270px, 200px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg) translate(270px, 200px) rotate(-360deg);
+    }
+}
+
+@keyframes xbox {
+    0% {
+        transform: rotate(0deg) translate(-200px, -280px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg) translate(-200px, -280px) rotate(-360deg);
+    }
+}
+
+@keyframes gta {
+    0% {
+        transform: rotate(0deg) translateX(-230px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg) translate(-230px) rotate(-360deg);
+    }
 }
