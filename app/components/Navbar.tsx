@@ -17,7 +17,13 @@ function Navbar() {
                 <div className='mobile:hidden desktop:flex'>
                     <LikeIcon />
                 </div>
-                <CartIcon />
+                <div className='relative'>
+                    <CartIcon />
+                    <div className='absolute right-[-12px] top-[-5px] w-[16px] h-[16px] rounded-full bg-[#416AFF] flex items-center justify-center text-[12px] text-[#fff] font-bold leading-[12px]'
+                    >
+                        2
+                    </div>
+                </div>
                 <ProfileIcon />
             </div>
         </nav>
