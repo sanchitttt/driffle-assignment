@@ -5,7 +5,7 @@ function About() {
     return (
         <>
             <main className='w-[100vw] h-[94.4vh] bg-[#0c0c0c] flex-col flex justify-start items-center desktop:flex mobile:hidden'>
-                <div className='w-[944px] h-[944px] relative flex items-center justify-center '>
+                <div className='w-[944px] mt-[-0px] h-[944px] relative flex items-center justify-center '>
                     <div id='outer-circle'
                         className='absolute z-[1200] left-[50%] top-[50%] border-[2px] w-[944px] h-[944px] rounded-full border-dashed border-[#ffffff1a]'
                         style={{ transform: 'translate(-50%,-50%)' }}

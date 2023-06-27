@@ -36,27 +36,27 @@ body {
 }
 
 .mortalKombat {
-    animation: mortalKombat 100s linear infinite;
+    animation: mortalKombat 180s linear infinite;
 }
 
 .football {
-    animation: football 100s linear infinite;
+    animation: football 180s linear infinite;
 }
 
 .minecraft {
-    animation: minecraft 100s linear infinite;
+    animation: minecraft 180s linear infinite;
 }
 
 .batman {
-    animation: batman 100s linear infinite;
+    animation: batman 180s linear infinite;
 }
 
 .xbox {
-    animation: xbox 100s linear infinite;
+    animation: xbox 180s linear infinite;
 }
 
 .gta {
-    animation: gta 100s linear infinite;
+    animation: gta 180s linear infinite;
 }
 
 @keyframes minecraft {
