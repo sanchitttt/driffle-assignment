@@ -20,5 +20,5 @@ https://www.figma.com/file/tbadJ0zfyrg1IjhPwDjfnz/Untitled?type=design&node-id=0
 For live demo visit: https://driffle.com/about
 
 # Tech Stack
-  Nextjs, Tailwind CSS, Figma
+  Nextjs, Tailwind CSS, Figma, Typescript
 
