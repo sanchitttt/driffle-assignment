@@ -1,5 +1,6 @@
 # [Deployed URL](https://driffleassignmentxcrio.vercel.app/)
-![Uploading image.png…]()
+![image](https://github.com/sanchitttt/driffle-assignment/assets/46245135/21e5a6f5-b378-4649-bf63-090e61c45243)
+
 
 # Problem Statement
 
