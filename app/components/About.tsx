@@ -91,7 +91,7 @@ function About() {
                 <div id='text-container'
                     className='flex flex-col items-center justify-center mx-[15px] gap-[30px]'
                 >
-                    <div className='text-white leading-[68px] text-[32px] text-center font-bold text-main'>
+                    <div className='text-white leading-[48px] text-[32px] text-center font-bold text-main'>
                         Driffle is a <span className='text-[#5DF5B5]'>one-stop shop</span> for all your gaming needs.
                     </div>
                     <div className='max-w-[815px] text-[#9F9F9F] text-center text-[16px] leading-[22px] '>
