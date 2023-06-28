@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <nav className='z-[1500] relative flex justify-between desktop:px-[30px] mobile:px-[15px] items-center bg-lightBlack h-[73px]'>
             <Logo />
-            <div className='flex desktop:gap-[30px] mobile:gap-[0px]'>
+            <div className='flex desktop:gap-[20px] mobile:gap-[0px]'>
                 <div className='flex gap-[15px] mr-[15px] mobile:hidden desktop:flex'>
                     <GlobeIcon />
                     <div className='flex items-center justify-between gap-[7.5px]'>
