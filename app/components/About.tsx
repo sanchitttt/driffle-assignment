@@ -7,7 +7,7 @@ function About() {
             <main className='w-[100vw] h-[94.4vh] bg-[#0c0c0c] flex-col flex justify-start items-center desktop:flex mobile:hidden'>
                 <div className='w-[944px] mt-[-0px] h-[944px] relative flex items-center justify-center '>
                     <div id='outer-circle'
-                        className='absolute z-[1200] left-[50%] top-[50%] border-[2px] w-[944px] h-[944px] rounded-full border-dashed border-[#ffffff1a]'
+                        className='absolute z-[1200] left-[50%] top-[50%] border-[1px] w-[944px] h-[944px] rounded-full border-dashed border-[#ffffff1a]'
                         style={{ transform: 'translate(-50%,-50%)' }}
                     >
                         <Image
@@ -33,7 +33,7 @@ function About() {
                         />
                     </div>
                     <div id='mid-circle'
-                        className='absolute z-[1200] left-[50%] top-[50%] border-[2px] w-[686px] h-[686px] rounded-full border-dashed border-[#ffffff1a]'
+                        className='absolute z-[1200] left-[50%] top-[50%] border-[1px] w-[686px] h-[686px] rounded-full border-dashed border-[#ffffff1a]'
                         style={{ transform: 'translate(-50%,-50%)' }}
                     >
                         <div className='bg-[#FBFF35] centerBottom batman w-[40px] h-[40px] rounded-[10px] flex items-center justify-center'>
@@ -47,7 +47,7 @@ function About() {
                         </div>
                     </div>
                     <div id='inner-circle'
-                        className='absolute  z-[1300] left-[50%] top-[50%] border-[2px] w-[464px] h-[464px] rounded-full border-dashed border-[#ffffff1a]'
+                        className='absolute  z-[1300] left-[50%] top-[50%] border-[1px] w-[464px] h-[464px] rounded-full border-dashed border-[#ffffff1a]'
                         style={{ transform: 'translate(-50%,-50%)' }}
                     >
                         <Image
