@@ -1,7 +1,6 @@
 # [Deployed URL](https://driffleassignmentxcrio.vercel.app/)
 ![image](https://github.com/sanchitttt/driffle-assignment/assets/46245135/21e5a6f5-b378-4649-bf63-090e61c45243)
 
-
 # Problem Statement
 
 TASK - 1
@@ -20,5 +19,6 @@ https://www.figma.com/file/tbadJ0zfyrg1IjhPwDjfnz/Untitled?type=design&node-id=0
  
 For live demo visit: https://driffle.com/about
 
-
+# Tech Stack
+  Nextjs, Tailwind CSS, Figma
 
