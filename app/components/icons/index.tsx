@@ -5,11 +5,11 @@ export function Logo() {
     return (
         <button>
             <Image
-            src='/logo.svg'
-            width={122}
-            height={30}
-            alt='Driffle Logo'
-        />
+                src='/logo.svg'
+                width={122}
+                height={30}
+                alt='Driffle Logo'
+            />
         </button>
     )
 }
@@ -56,4 +56,13 @@ export function GlobeIcon() {
             alt='globe icon'
         />
     </button>
+}
+
+export function RightArrow() {
+    return <Image
+        src='/rightArrow.svg'
+        width={15}
+        height={15}
+        alt='Visit our store'
+    />
 }

@@ -18,6 +18,9 @@ module.exports = {
       screens: {
         'mobile': "0px",
         'desktop': '1000px'
+      },
+      fontFamily: {
+        'main': 'Rooberto'
       }
     },
   },
