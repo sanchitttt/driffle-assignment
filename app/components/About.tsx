@@ -69,10 +69,10 @@ function About() {
                         className='absolute z-[1100] top-[50%] left-[50%] flex flex-col items-center justify-center w-[100%] gap-[50px]'
                         style={{ transform: 'translate(-50%,-50%)' }}
                     >
-                        <div className='text-white leading-[68px] text-[64px] text-center font-bold text-main'>
+                        <div className='text-white leading-[68px] text-[54px] text-center font-bold text-main'>
                             Driffle is a <span className='text-[#5DF5B5]'>one-stop shop</span><br /> for all your gaming needs.
                         </div>
-                        <div className='max-w-[815px] text-[#9F9F9F] text-center text-[16px] leading-[22px] '>
+                        <div className='max-w-[815px] text-[#9F9F9F] text-center text-[14px] leading-[22px] '>
                             {"Not only do we sell games, but also offer gift cards, DLC's, and more. Driffle is a marketplace, so you can find a wide variety of items from different sellers in one place. We are committed to the future of gaming and strive to make our platform safe, affordable, and sustainable for all users. Whether you're looking for the latest releases            or hard-to-find classics, you're sure to find what you're looking for on Driffle."}
                         </div>
                         <button aria-describedby='button' className='bg-[#4444444D] rounded-full w-[178px] h-[48px] flex items-center justify-center text-white border-[1px] border-[#CBCBCB]'
